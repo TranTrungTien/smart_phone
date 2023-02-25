@@ -1,0 +1,18 @@
+@import url('./styles/animate.css');
+@import url('./styles/bootstrap.min.css');
+@import url('./styles/font-awesome.min.css');
+@import url('./styles/helper.css');
+@import url('./styles/jquery-ui.min.css');
+@import url('./styles/magnific-popup.css');
+@import url('./styles/material-design-iconic-font.min.css');
+@import url('./styles/meanmenu.css');
+@import url('./styles/nice-select.css');
+@import url('./styles/owl.carousel.min.css');
+@import url('./styles/responsive.css');
+@import url('./styles/slick.css');
+@import url('./styles/venobox.css');
+@import url("./styles/style.css");
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
