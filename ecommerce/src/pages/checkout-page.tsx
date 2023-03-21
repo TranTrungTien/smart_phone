@@ -67,9 +67,11 @@ const CheckoutCart = () => {
       carts,
       totalPrice: getTotalPrice(),
     };
-    await axios.post("http://localhost:8080/api/create-order", data);
+    console.log({ data });
+
+    // await axios.post("http://localhost:8080/api/create-order", data);
     message.success("Đặt hàng thành công");
-    setTimeout(() => window.location.replace("/"), 500);
+    // setTimeout(() => window.location.replace("/"), 500);
   };
   return (
     <div>
